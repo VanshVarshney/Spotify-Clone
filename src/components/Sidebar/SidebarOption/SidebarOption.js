@@ -1,11 +1,12 @@
 import React from "react";
 import "./SidebarOption.css";
+import { Icon } from "@material-ui/core";
 
-function SidebarOption({ option = "test", Icon }) {
+function SidebarOption({ title, Icon }) {
   return (
     <div className="sidebarOption">
       {Icon && <Icon className="sidebarOption__icon" />}
-      {Icon ? <h4>{option}</h4> : <p>{option}</p>}
+      {Icon ? <h4>{title}</h4> : <p>{title}</p>}
     </div>
   );
 }

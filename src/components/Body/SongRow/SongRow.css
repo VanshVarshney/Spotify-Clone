@@ -3,13 +3,12 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  z-index: 100;
   color: white;
 }
 
 .songRow:hover {
   cursor: pointer;
-  background-color: black;
+  background-color: #111;
   opacity: 0.8;
 }
 

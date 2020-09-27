@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live deployed
+
+Link : [Spotify](https://spotify-app-c3050.web.app/)
 
 ## Available Scripts
 
